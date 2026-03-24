@@ -38,4 +38,4 @@ USER node
 EXPOSE 3000
 
 # Run the application in dev mode to use with Compose watch feature
-CMD npm run dev
+CMD ["npm", "run", "dev"]
